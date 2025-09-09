@@ -30,9 +30,10 @@ Able to...
 
 Questions
 
-1. Which customers have matching orders?  
-2. Which customers do not have any orders?  
-3. Which orders do not match any existing customers?  
+1. Which customers have matching orders?
+c1 and c2
+2. Which customers do not have any orders?
+3. Which orders do not match any existing customers?
 
 ---
 
