@@ -31,8 +31,13 @@ Able to...
 Questions
 
 1. Which customers have matching orders?
-c1 and c2
+
+    c1 and c2
+
 2. Which customers do not have any orders?
+
+    c3 and c4
+
 3. Which orders do not match any existing customers?
 
 ---
