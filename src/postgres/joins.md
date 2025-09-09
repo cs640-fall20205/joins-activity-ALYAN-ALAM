@@ -40,6 +40,8 @@ Questions
 
 3. Which orders do not match any existing customers?
 
+    c5 and c6
+
 ---
 
 ## Model 2
