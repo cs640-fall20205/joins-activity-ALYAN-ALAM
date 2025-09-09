@@ -63,7 +63,11 @@ Result
 Questions
 
 1. Which customers are not included in the result?
+
+    c3 and c4
+
 2. Why do you think they are not in the result?
+
 3. Which orders are not included in the result?
 4. Why do you think they are not in the result?
 5. When is a row from Customers or Orders included?
