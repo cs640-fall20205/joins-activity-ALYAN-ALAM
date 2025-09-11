@@ -79,7 +79,12 @@ Questions
     Because c5 and c6 are not in customers table.
 
 5. When is a row from Customers or Orders included?
+
+    Its only happen when we used Joins.
+
 6. What is the meaning of INNER JOIN?
+
+    Inner Join only includes rows where the join condition is true.
 
 ---
 
