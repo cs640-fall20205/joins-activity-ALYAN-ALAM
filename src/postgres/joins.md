@@ -123,6 +123,7 @@ Questions
 
 4. What is the meaning of LEFT OUTER JOIN?
 
+    It takes all data from left table and only required columns from the right table where condition matched.
 ---
 
 ## Model 4
