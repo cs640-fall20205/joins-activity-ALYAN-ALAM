@@ -195,6 +195,8 @@ Questions
     o3 and o4
 
 3. When is a row included?
+
+
 4. What is the meaning of FULL JOIN?
 
 ---
