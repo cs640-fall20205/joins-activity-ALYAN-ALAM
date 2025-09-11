@@ -187,7 +187,13 @@ Result
 Questions
 
 1. Which customers are not included in the result?
+
+    c5 and c6
+
 2. Which orders are not included in the result?
+
+    o3 and o4
+
 3. When is a row included?
 4. What is the meaning of FULL JOIN?
 
