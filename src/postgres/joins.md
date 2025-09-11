@@ -161,6 +161,7 @@ Questions
 
 4. What is the meaning of RIGHT OUTER JOIN?
 
+    It takes all data from right table and only required columns from the left table where condition matched.
 ---
 
 ## Model 5
