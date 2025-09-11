@@ -68,6 +68,8 @@ Questions
 
 2. Why do you think they are not in the result?
 
+    Because there is no Order id match the customer_id in Customer table and customer_id 
+
 3. Which orders are not included in the result?
 4. Why do you think they are not in the result?
 5. When is a row from Customers or Orders included?
