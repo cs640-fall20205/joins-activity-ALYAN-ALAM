@@ -110,13 +110,16 @@ Questions
 
 1. Which customers are not included in the result?
 
-c5 and c6
+    c5 and c6
 
 2. Which orders are not included in the result?
 
+    o5 and o6
 
 3. When is a row included?
 
+    When we do "INSERT INTO ___ VALUES____ "
+    then its added a row in table.
 
 4. What is the meaning of LEFT OUTER JOIN?
 
