@@ -196,8 +196,13 @@ Questions
 
 3. When is a row included?
 
+    When Join condition is satisfied.
 
 4. What is the meaning of FULL JOIN?
+
+    In Full join its include both tables data where Join condition is stisfied.
+
+
 
 ---
 
