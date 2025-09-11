@@ -72,9 +72,12 @@ Questions
 
 3. Which orders are not included in the result?
 
-o5 and o6
+    o5 and o6
 
 4. Why do you think they are not in the result?
+
+    Because c5 and c6 are not in customers table.
+
 5. When is a row from Customers or Orders included?
 6. What is the meaning of INNER JOIN?
 
