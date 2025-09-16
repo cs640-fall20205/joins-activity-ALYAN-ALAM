@@ -211,5 +211,47 @@ Questions
 Confirm the above by creating the tables in Postgres and running the queries. Paste the SQL for creating and populating the tables below.
 
 ```sql
+CREATE TABLE Customers (
+    customer_id VARCHAR(10) PRIMARY KEY,
+    customer_name VARCHAR(50)
+);
 
+CREATE TABLE Orders (
+    order_id VARCHAR(10) PRIMARY KEY,
+    customer_id VARCHAR(10),
+    CONSTRAINT fk_customer FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
+
+
+INSERT INTO Customers (customer_id, customer_name) VALUES
+('c1', 'Alice'),
+('c2', 'Bob'),
+('c3', 'Carol'),
+('c4', 'David');
+
+INSERT INTO Customers (customer_id, customer_name) VALUES
+('c5','xyz'),
+('c6','Abc');
+
+INSERT INTO Orders (order_id, customer_id) VALUES
+('o1', 'c1'),
+('o2', 'c2'),
+('o5', 'c5'),
+('o6', 'c6');
+
+SELECT c.customer_id, c.customer_name, o.order_id
+FROM Customers c
+INNER JOIN Orders o ON c.customer_id = o.customer_id;
+
+SELECT c.customer_id, c.customer_name, o.order_id
+FROM Customers c
+LEFT OUTER JOIN Orders o ON c.customer_id = o.customer_id;
+
+SELECT c.customer_id, c.customer_name, o.order_id
+FROM Customers c
+RIGHT OUTER JOIN Orders o ON c.customer_id = o.customer_id;
+
+SELECT c.customer_id, c.customer_name, o.order_id
+FROM Customers c
+FULL JOIN Orders o ON c.customer_id = o.customer_id;
 ```
